@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"   href="css/main.css">
+    <title>Lightbox</title>
+</head>
+<body>
+
+
+<div class="gallery-container" id="My-lightbox-gallery">
+
+    <div class="vignette" >
+        <img data-img="gallery/large/landscape-1112911_1280.jpg"
+        src="gallery/small/landscape-1112911_640.jpg">
+        <div>Mystrious Lanscape</div>
+
+    </div>
+
+    <div class="vignette" >
+        <img data-img="gallery/large/rocky-mountain-1149298_1280.jpg"
+             src="gallery/small/rocky-mountain-1149298_640.jpg">
+        <div>Rocky Mountain !</div>
+    </div>
+
+    <div class="vignette" >
+        <img data-img="gallery/large/seacoast-1507243_1280.jpg"
+             src="gallery/small/seacoast-1507243_640.jpg">
+        <div>Summer Sea Coast</div>
+    </div>
+
+    <div class="vignette" >
+        <img data-img="gallery/large/snow-1216542_1920.jpg"
+             src="gallery/small/snow-1216542_640.jpg">
+        <div>Snowy Winter Mountain</div>
+    </div>
+
+    <div class="vignette" >
+        <img data-img="gallery/large/wave-1246560_1920.jpg"
+             src="gallery/small/wave-1246560_640.jpg">
+        <div>The Big Large Wave !</div>
+    </div>
+</div>
+<!-- section : fenêtre modale   -->
+<div class="modal" id="modal1">
+    <div id="modal_content">
+        <button id="modal_prev"><<</button>
+        <img src="">
+        <button id="modal_close">X</button>
+        <button id="modal_next">>></button>
+        <span id="modal_com"><p>Commentaires</p></span>
+        <div>Bonjour</div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script> window.jQuery || document.write('<script src="js/jquery-3.2.1.js"><\/script>')</script>
+<script src="js/lightbox.js"></script>
+</body>
+</html>
